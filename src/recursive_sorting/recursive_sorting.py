@@ -6,6 +6,7 @@ def merge( arrA, arrB ):
     a = 0
     b = 0
     c = 0
+    
 
     while a < len(arrA) and b < len(arrB):
         if arrA[a] < arrB[b]:
